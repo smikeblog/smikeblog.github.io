@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Савин Михаил</title>
+    <description>My Personal page</description>
+    <link>smike.gq/</link>
+    <atom:link href="smike.gq/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Sep 2016 16:13:10 -0400</pubDate>
+    <lastBuildDate>Sat, 03 Sep 2016 16:13:10 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 04 Jun 2016 09:50:39 -0400</pubDate>
+        <link>smike.gq/jekyll/2016/06/04/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">smike.gq/jekyll/2016/06/04/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Example content for posts</title>
+        <description>&lt;p&gt;&lt;small&gt;This demo page has been used from &lt;a href=&quot;http://jasonm23.github.io/markdown-css-themes/&quot; target=&quot;_blank&quot;&gt;http://jasonm23.github.io/markdown-css-themes/&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+
+&lt;h1&gt;A First Level Header&lt;/h1&gt;
+
+&lt;h2&gt;A Second Level Header&lt;/h2&gt;
+
+&lt;h3&gt;A Third Level Header&lt;/h3&gt;
+
+&lt;h4&gt;A Fourth Level Header&lt;/h4&gt;
+
+&lt;h5&gt;A Fifth Level Header&lt;/h5&gt;
+
+&lt;h6&gt;A Sixed Level Header&lt;/h6&gt;
+
+&lt;p&gt;Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.&lt;/p&gt;
+
+&lt;p&gt;The quick brown fox jumped over the lazy
+dog&amp;rsquo;s back.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Header 3&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+
+&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;
+
+&lt;p&gt;This is the first level of quoting.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This is nested blockquote.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Back to the first level.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.
+Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.
+Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Candy.&lt;/li&gt;
+&lt;li&gt;Gum.&lt;/li&gt;
+&lt;li&gt;Booze.&lt;/li&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Blue&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With multiple paragraphs.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.*   Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is a list item with two paragraphs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the second paragraph in the list item. You&amp;rsquo;re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Another item in the same list.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item with a bit of &lt;code&gt;code&lt;/code&gt; inline.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item with a blockquote:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This is a blockquote
+inside a list item.&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is an example of a pre code block&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is an &lt;a href=&quot;#&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I start my morning with a cup of coffee and
+&lt;a href=&quot;http://www.nytimes.com/&quot;&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-snippet&quot;&gt;Code snippet&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;__main__&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threading&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downloadWallpaper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Downloading Image&#39;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_alive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;.&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Sat, 04 Jun 2016 00:00:00 -0400</pubDate>
+        <link>smike.gq/others/2016/06/04/example-content.html</link>
+        <guid isPermaLink="true">smike.gq/others/2016/06/04/example-content.html</guid>
+        
+        
+        <category>others</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Page</title>
+        <description>&lt;p&gt;This is a test blog page where we can explore how to embedd images in the blog.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-example-1&quot;&gt;Image example 1&lt;/h2&gt;
+
+&lt;p&gt;Here, I will embedd image from local assets which goes into &lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt; directory in project’s &lt;code class=&quot;highlighter-rouge&quot;&gt;root&lt;/code&gt; directory. Choose a specific image, related to particular post. I chose to name the image &lt;code class=&quot;highlighter-rouge&quot;&gt;test-page-image-1.jpg&lt;/code&gt;, which I will embedd as:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;my alternate text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;/assets/test-page-image-1.jpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/test-page-image-1.jpg&quot; alt=&quot;my alternate text&quot; /&gt;;&lt;/p&gt;
+
+&lt;p&gt;Ofcourse, you can load images from web as well. Just point to image direct URL. For ex, here is one placeholder image:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;my alternate text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;http://lorempixel.com/400/200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://lorempixel.com/400/200&quot; alt=&quot;my alternate text&quot; /&gt;;&lt;/p&gt;
+
+&lt;p&gt;One cool thing about this is the fact that images adapt themselves to the screen size of device. Try to resize your browser window and check for yourself, Have fun.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Jun 2015 09:50:39 -0400</pubDate>
+        <link>smike.gq/others/2015/06/04/test-page.html</link>
+        <guid isPermaLink="true">smike.gq/others/2015/06/04/test-page.html</guid>
+        
+        
+        <category>others</category>
+        
+      </item>
+    
+      <item>
+        <title>Экономические циклы, стагнация, рецессия, кризис и депрессия</title>
+        <description>&lt;p&gt;Экономическая теория имеет в своем арсенале много терминов, которые проблематичны в оценках. Из указанных в названии поста терминов только термины стагнация и рецессия имеют(или имели до текущего кризиса) более менее четкое определение. Согласно определению экономика в рецессии если в течение 2-х последовательных кварталов ВВП страны падает. Стагнация - это отсутствие роста ВВП. Оставшиеся термины гораздо сложнее в определении и не поддаются более менее четкому определению. В настоящее время опять интернет пестрит информацией про кризис. Так как я, по роду занятий, имею определенное отношение к финансово-экономической деятельности задавался вопросом о применении и определении данных терминов. Например, для определения возможности рецессии при условии что имеем один квартал снижения ВВП предположить, что в следующем квартале ВВП тоже будет снижаться. Для определения возможности продолжения снижения ВВП и перехода экономики в рецессию резонно определить динамику факторов, входящих в ВВП. Задача определения динамики факторов, довольно сложная и проблематична в реализации из-за большого количества самих факторов. Мне пришлось заняться этой проблемой несколько лет назад и вот какая картинка составляющих и взаимосвязей получилась:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/gdp_factorbase.jpg&quot; alt=&quot;&amp;quot;sm Factors Base&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Собирать и поддерживать базу со всеми этими данными в актуальном состоянии для определенного индивида проблематично. А иметь кое-какие ориентиры надо и/или интересно. В таких случаях теория говорит что надо использовать интегральные показатели, например индексы. Известно, что более 100 лет назад Доу Джонс использовал индекс, который впоследствии назвали его именем для определения состояния экономики США. В индекс входили 30 компаний. Причем он использовал его довольно успешно и длительное время. Сейчас индексов появилось огромное множество и их успешное практическое применение затруднительно. По крайней мере мне не известны аналогии успешности применения сравнимые с упомянутым индексом Джонса. Идея применения данного индекса заключалась в том, что отобранные 30 компаний определяли состояние экономики страны. При росте экономика росла, а при падении наоборот. Вещь вроде довольно тривиальная, но до публикации Джонсом своих взглядов вроде никто так успешно не применял подобный подход. Как там было в те времена мне не ведомо, но в экономической литературе подход носит название теории Доу. Я попробовал использовать подобный подход и посмотреть что получится взяв некоторые предпосылки указанной теории.
+Предпосылки:
+- существует некоторое количество компаний, которые влияют на экономику и соответственно на ВВП.
+- Доу использовал свою теорию в инвестиционных целях, т.е. для извлечения прибыли.&lt;/p&gt;
+
+&lt;p&gt;Если Доу использовал свою теорию с целью извлечения прибыли тогда наверно прибыль в абсолютном денежном выражении за период это (Р1 - Р0) + D, т.е. изменение цены плюс полученные за период дивиденды. Далее если отдельно рассматривать (Р1 - Р0) и D, то составляющая (Р1 - Р0) носит стохастический характер(в литературе по инвестициям  это value investing) со всеми вытекающими последствиями, а поток D можно анализировать по аналогии с инструментами с фиксированной доходностью(fixed income). Вот на поток дивидендов я и решил посмотреть в смысле его интенсивности за длительный период.
+Для эксперимента взял все более менее ликвидные акции с биржи Наздак, у которых история доступна не менее чем с 2000-го года. Получил картинку которая представлена ниже.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/div2014_12mnth.jpg&quot; alt=&quot;&amp;quot;div2014_12mnth&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;На рисунке по годам представлено количество выплат дивидендов за год в процентном отношении от общего количества акций в выборке. Что мне показалось интересным на представленном рисунке так это то, что с 2003-го по 2006-й годы наблюдается резкий рост количества выплат дивидендов. Максимум по количеству выплат был в 2008 году и в дальнейшем количество выплат в годовом исчислении сравнительно постоянно. Если вспомнить события, которые начались в 2007 - 2008 годах, т.е. экономический кризис, то возникает резонный вопрос: Является ли рост количества выплат дивидендов компаний фактором предвещающим кризис экономики?
+Для ответа на данный вопрос нужна история по дивидендам за длительный период - по крайней мере чтобы охватывала кризис 20 - 30-х годов прошлого века. Пока я такую историю не нашел в просторах интернета и гипотезу проверить не могу.
+И второй вопрос, который также для меня остается загадкой: выход из текущего кризиса тоже будет сопровождаться предшествующим падением количества выплат дивидендов или нет?&lt;/p&gt;
+
+&lt;p&gt;Буду рад если более сведущие люди помогут с ответами на данные вопросы и выскажут свое мнение по поводу данного наблюдения.&lt;/p&gt;
+
+&lt;p&gt;Удачи всем !&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Jan 2015 17:45:00 -0500</pubDate>
+        <link>smike.gq/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA/2015/01/27/Wpress-post-2.html</link>
+        <guid isPermaLink="true">smike.gq/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA/2015/01/27/Wpress-post-2.html</guid>
+        
+        
+        <category>Кризис</category>
+        
+        <category>Модели</category>
+        
+        <category>Рынок</category>
+        
+      </item>
+    
+      <item>
+        <title>Рынок, кризис и линейная регрессия</title>
+        <description>&lt;p&gt;В разное время на разных ресурсах обсуждались вопросы, связанные с  изменением фондового рынка. Обычно такие изменения связывают с разного рода катаклизмами. Я сам тоже учавствовал в такого рода обсуждениях, но каждый раз смотрел на предпосылки по разному. Какие обстоятельства определяли точку опоры сейчас сказать не могу, т.к. уже не помню всех нюансов. В данное время опять наступил такой момент, возникновение которого опять же наверно навеян окружающими событиями и обсуждениями. Итак, предположения-допущения (предпосылки) для подхода:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;1. Доходы/расходы участников(продавцов/покупателей) зависят от изменения цен инструментов.(ROC)&lt;/li&gt;
+    &lt;li&gt;2. Изменение параметров ROC приводит к изменению поведения участников.&lt;/li&gt;
+    &lt;li&gt;3. Массовое изменение поведения участников меняет рынок.&lt;/li&gt;
+    &lt;li&gt;4. Поскольку речь об оценках необходимо выбрать точку опоры = модель, с которой будем сравнивать инструменты. В качестве модели я произвольно(настроение у меня такое) выбрал линейную регрессию. Почему именно линейная – да просто потому, что большинство предпочитают разные линии в качестве индикаторов. Опять же бюджетирование в основном базируется тоже на линейных предположениях. Тот же DCF к примеру.&lt;/li&gt;
+    &lt;li&gt;5. Важным параметром в подобного рода исследованиях является длина скользящего окна данных. Поскольку структурные изменения происходят не так часто имеет смысл рассматривать длинный период. Я решил разделить год на 2 части и смотреть в окне длиной полгода.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Перед тем как начать приведу забавную картинку из цикла « что можно получить из рыночных данных через призму линейной регрессии». Разрисовка связана с углом наклона и длиной окна регрессии.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/p1fig1.jpg&quot; alt=&quot;&amp;quot;sm Factors Base&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;В качестве инструментов взял все имеющиеся у меня данные по СиПи 500 и индексу РТС.(первые дневки с Yahoo, вторые дневки c FINAM). Для простоты и удобства представления на графиках дневки преобразовал в недельки. Графики инструментов выглядат как на рисунках  ниже:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/p1fig2.jpg&quot; alt=&quot;&amp;quot;sm Factors Base&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;hide-if-no-js&quot;&gt;Далее применим к данным инструментам скользящую линейную регрессию с окном в полгода. Получаем следующие картинки:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/p1fig3.jpg&quot; alt=&quot;&amp;quot;sm Factors Base&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;hide-if-no-js&quot;&gt;Такое простое представление можно рассматривать как меру риска в довольно длинном окне.  Если смотреть текущий кризис, начиная примерно с 2007-го года, то у РТСИ размах увеличился примерно в 2 раза а у СиПи в 2 раза &quot;лучше&quot; - примерно в 4 раза. Мне картинка по СиПи напомнила  М.Ю. Лермонтова: « Да! Были люди в наше время…». Теперь попробуем еще один &quot;трюк&quot; с перенормировкой любопытства ради: посмотрим как та же картинка выглядит в полулогарифмическом масштабе. Итак, смотрим&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/p1fig4.jpg&quot; alt=&quot;&amp;quot;sm Factors Base&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;hide-if-no-js&quot;&gt;Если присмотреться к данным графикам, то увидим, что такое простое изменение шкалы  показывает наличие тренда в поведении обоих рыночных инструментов. Данные картинки(если им доверять) наталкивают на мысль о том, что слухи о выходе мировой экономики из кризиса «слегка преувеличены».&lt;/p&gt;
+
+&lt;p&gt;Ну вот пожалуй и все. Удачи всем!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 23 Jan 2015 04:46:00 -0500</pubDate>
+        <link>smike.gq/market/2015/01/23/42-wp-post1.html</link>
+        <guid isPermaLink="true">smike.gq/market/2015/01/23/42-wp-post1.html</guid>
+        
+        <category>Модели</category>
+        
+        
+        <category>market</category>
+        
+      </item>
+    
+  </channel>
+</rss>
