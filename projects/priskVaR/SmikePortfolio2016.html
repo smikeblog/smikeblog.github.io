@@ -1,0 +1,507 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="http://www.nongnu.org/elyxer/">
+<meta name="create-date" content="2016-09-03">
+<link rel="stylesheet" href="SmikePortfolio2016_files/lyx.css" type="text/css" media="all">
+<title>Описание портфеля</title>
+</head>
+<body>
+<div id="globalWrapper">
+<h1 class="title">
+Описание портфеля
+</h1>
+<h2 class="Date">
+Михаил Савин
+</h2>
+<blockquote class="Quote">
+Примечание:<br>
+В данном коротком отчете представлены некоторые наиболее сложные моменты
+ управления финансовым риском, которые часто спрашивали и мне 
+приходилось решать. Все данные, которые используются в представленных 
+вычислениях взяты из источников с свободным доступом. Вычисления, 
+графики и описание проводились мной лично с использованием программных 
+продуктов с открытым кодом, кроме Екселя, который является 
+собственностью Микрософта.
+</blockquote>
+<div class="fulltoc">
+<div class="tocheader">
+Содержание
+</div>
+<div class="tocindent">
+<div class="toc">
+<a class="Link" href="#toc-Chapter-1">Глава 1: Вычисление и моделирование риска(VaR и другие меры)</a>
+</div>
+<div class="tocindent">
+<div class="toc">
+<a class="Link" href="#toc-Section-1.1">Раздел 1.1: Исторический и Аналитический VaR</a>
+</div>
+<div class="toc">
+<a class="Link" href="#toc-Section-1.2">Раздел 1.2: Манипуляция величиной VaR</a>
+</div>
+<div class="toc">
+<a class="Link" href="#toc-Section-1.3">Раздел 1.3: Риск портфеля</a>
+</div>
+</div>
+<div class="toc">
+<a class="Link" href="#toc-Chapter-2">Глава 2: Риск по регионам и странам</a>
+</div>
+<div class="tocindent">
+<div class="toc">
+<a class="Link" href="#toc-Section-2.1">Раздел 2.1: Риск по регионам</a>
+</div>
+<div class="toc">
+<a class="Link" href="#toc-Section-2.2">Раздел 2.2: Исторический анализ в разрезе стран</a>
+</div>
+<div class="toc">
+<a class="Link" href="#toc-Section-2.3">Раздел 2.3: По монетарным и фондовым индексам в разрезе стран</a>
+</div>
+</div>
+<div class="toc">
+<a class="Link" href="#toc-Chapter-3">Глава 3: Риск по отраслям экономики</a>
+</div>
+<div class="toc">
+<a class="Link" href="#toc-Chapter-4">Глава 4: Риск ликвидности</a>
+</div>
+</div>
+
+</div>
+<h1 class="Chapter">
+<a class="toc" name="toc-Chapter-1">1</a> Вычисление и моделирование риска(VaR и другие меры)
+</h1>
+<div class="Unindented">
+<p><br>
+</p>
+
+</div>
+<h2 class="Section">
+<a class="toc" name="toc-Section-1.1">1.1</a> Исторический и Аналитический VaR
+</h2>
+<div class="Unindented">
+Для иллюстрации вычисления VaR по отдельному инструменту воспользуемся 
+данными Газпрома, взятые с сайта Финам. На картинке ниже представлены 
+результаты вычислений VaR тремя методами 1) из предположения что 
+распределение остатков подчиняется нормальному закону(красная линия на 
+графике), 2) исторический квантиль(зеленая линия) и 3) по 
+модифицированной формуле(синяя линия). Кроме того осуществлена 
+ретроспективная проверка(backtesting) в окне 10 дней с триггером в 
+1%(1%-й VaR) по требованиям 2-го базельского соглашения.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/GAZPVaR.jpg" alt="рисунок GAZPVaR.jpg" style="width: 476px; max-width: 635px; height: 476px; max-height: 635px;">
+
+</div>
+<div class="Indented">
+Проверка гипотезы о вероятности превышения 1% -й границы по модели 
+garch(1,1) предполагая что распределение потерь подчиняется нормальному 
+закону. Нулевая гипотеза - потери превысят 1%-ю границу. Участок до 2010
+ года(1000 измерений) используется для определения параметров модели а 
+остальная часть(542 дня) для ее валидации. 
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/VaRBtestRep.jpg" alt="рисунок VaRBtestRep.jpg" style="width: 390px; max-width: 521px; height: 219px; max-height: 293px;">
+
+</div>
+<div class="Indented">
+Согласно теста нельзя отметать нулевую гипотезу, т.е.вероятность 
+превышения заданного уровня триггера(норматива). Красная линия на 
+графике подтверждает, что во второй половине 2011 года было превышение. 
+</div>
+<h2 class="Section">
+<a class="toc" name="toc-Section-1.2">1.2</a> Манипуляция величиной VaR
+</h2>
+<div class="Unindented">
+С практической точки зрения VaR, как мера риска, не лишен недостатков. 
+Чаще всего на практике нарушается принцип субаддитивности. Для примера 
+возьмем требование Базеля II 1%, 250 дней и скользящее окно в 10 дней. 
+Предположим, что мы имеем в определенный момент величинаму риска равную 
+VaR0, и желаем ее уменьшить до VaR1. Используя деривативы желаемый 
+результат можно получить довольно просто. Например продаем пут опцион с 
+страйком выше VaR0 и покупаем другой со страйком ниже VaR1. Необходимое 
+количество опционов и цены находятся оптимизацией. Результатом таких 
+манипуляций, с практической точки зрения, будет увеличение риска, 
+снижение доходности и изменнение величины VaR с VaR0 до VaR1. На рисунке
+ ниже представлена подобная картина где кривая доходности до манипуляции
+ представлена непрерывной линией
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/manipVaR.jpg" alt="рисунок manipVaR.jpg" style="width: 473px; max-width: 728px; height: 196px; max-height: 302px;">
+
+</div>
+<div class="Indented">
+Такого рода изменения в балансах довольно трудно поддаются идентификации и нередки, особенно после 2007 года.
+</div>
+<h2 class="Section">
+<a class="toc" name="toc-Section-1.3">1.3</a> Риск портфеля
+</h2>
+<div class="Unindented">
+Исходя из проблем, которые возникают при использовании VaR на практике, о
+ которых упоминалось в предыдущей части были предложены другие меры, 
+которые устраняют определнные недостатки VaR. Среди них стали 
+популярными такие меры как условный VaR(CVaR). максимально возможный 
+убыток(MaxLoss). максимальное среднее отклонение(MAD), условный убыток к
+ риску(CDaR) и др. Для моделирования взяты данные компаний, большинство 
+из которых входят в индекс ММВБ 10(данные с сайта Финам). Часть данных 
+представлены ниже в таблице
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/PortDataMMVB.jpg" alt="рисунок PortDataMMVB.jpg" style="width: 449px; max-width: 599px; height: 87px; max-height: 117px;">
+
+</div>
+<div class="Indented">
+На основании данных построим профили различных мер риска на определенную дату, например на начало 2012 года.
+</div>
+<div class="Indented">
+Для наглядности сравнения построим эффективные траектории такого 
+портфеля по упомянутым мерам и представим их в профилях влияния на 
+доходность портфеля. Резулььтаты представлены на графиках ниже для 
+упомянутых выше мер и классической меры по Марковицу(Risk).
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/PortfRisk.jpg" alt="рисунок PortfRisk.jpg" style="width: 433px; max-width: 667px; height: 429px; max-height: 660px;">
+
+</div>
+<div class="Indented">
+Ниже представлены графики переходов(изменение весов акций в портфеле) в зависимости от уровня риска портфеля.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/PortfRiskW.jpg" alt="рисунок PortfRiskW.jpg" style="width: 432px; max-width: 665px; height: 428px; max-height: 659px;">
+
+</div>
+<div class="Indented">
+<p><br>
+</p>
+
+</div>
+<h1 class="Chapter">
+<a class="toc" name="toc-Chapter-2">2</a> Риск по регионам и странам
+</h1>
+<div class="Unindented">
+<p><br>
+</p>
+
+</div>
+<h2 class="Section">
+<a class="toc" name="toc-Section-2.1">2.1</a> Риск по регионам
+</h2>
+<div class="Unindented">
+При анализе динамики регионов используются данные, которые предоставляют
+ Фама и Френч по всем высококапитализированным акциям каждого региона. 
+Методология основана на эффективной границе, построенной по Марковицу за
+ три последних десятилетия. 
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/GlobBigCapRegion.png" alt="рисунок GlobBigCapRegion.png" style="width: 436px; max-width: 672px; height: 436px; max-height: 671px;">
+
+</div>
+<div class="Indented">
+Из графиков эффективной границы видно что в течение последнего 
+десятилетия доходность резко уменьшилась а риск увеличился во всех 
+регионах. Также по границе за 2000-2012 годы видно, что Азиатский и 
+Европейский регионы стали наиболее привлекательными по доходности. 
+Примечательно, что лидером по динамике доходность-риск за последние три 
+десятилетия является азиатский регион(падение доходности от 0,012 до 
+0,009 и уменьшение риска на 0,001).
+</div>
+<h2 class="Section">
+<a class="toc" name="toc-Section-2.2">2.2</a> Исторический анализ в разрезе стран
+</h2>
+<div class="Unindented">
+Анализ в данном разделе осуществляется на основе данных из баз данных 
+Мирового Банка и рыночным ценам с сайта яху-финанс. Динамика изменения 
+капитализации рынков стран за предыдущие 20 лет представлена на 
+отдельных графиках.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/Rplot.png" alt="рисунок Rplot.png" style="width: 427px; max-width: 570px; height: 360px; max-height: 480px;">
+
+</div>
+<div class="Indented">
+На графиках примечательны несколько моментов:
+</div>
+<div class="Indented">
+- Капитализация рынка Японии высоковолатильная без ярковыраженной тенденции в долгосрочном периоде
+</div>
+<div class="Indented">
+- США, Канада и Австралия практически вернулись к докризисным пиковым значениям капитализации.
+</div>
+<div class="Indented">
+Периодическая таблица доходностей страновых индексов по данным с 
+яху-финанс, приведенная ниже также подтвреждает факт высокой доходности 
+Канады и Австралии за последние 5 лет.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/plot2.png" alt="рисунок plot2.png" style="width: 390px; max-width: 600px; height: 325px; max-height: 500px;">
+
+</div>
+<h2 class="Section">
+<a class="toc" name="toc-Section-2.3">2.3</a> По монетарным и фондовым индексам в разрезе стран
+</h2>
+<div class="Unindented">
+Веса стран по капитализации в общей капитализации выборки по состоянию на Декабрь 2012 года.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/MarkCapit.jpg" alt="рисунок MarkCapit.jpg" style="width: 493px; max-width: 658px; height: 270px; max-height: 361px;">
+
+</div>
+<div class="Indented">
+В таблице вычислена доходность по каждой стране и риск, вычисленный как 
+превышение доходности над рыночной к величине вариации портфеля. Веса те
+ же что представлены на предыдущем графике(круговая диаграмма).
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/MarkCapit_1.jpg" alt="рисунок MarkCapit_1.jpg" style="width: 431px; max-width: 575px; height: 315px; max-height: 421px;">
+
+</div>
+<div class="Indented">
+Из таблицы видно, что лучшее соотношение доходность к риску у Германии и Австралии.
+</div>
+<h1 class="Chapter">
+<a class="toc" name="toc-Chapter-3">3</a> Риск по отраслям экономики
+</h1>
+<div class="Unindented">
+В данном разделе я воспользуюсь результатами предыдущего раздела 
+представленными на круговой диаграмме рыночной капитализации. Из 
+диаграммы видно, что США, Япония и Англия в сумме представляют около 80 %
+ общей капитализации выборки. Львиная доля принадлежит США(57%). Резонно
+ предполагать, что движение средств между отраслями, и соответственно 
+изменение цен на рынке, в основном осуществляются этими рынками. Для 
+примера ниже представлен отраслевой анализ рынка США как наиболее 
+капитализированного. Данный анализ производится на основании ликвидных 
+отраслевых фондов рыночного индекса S&amp;P500. В таблице представлены 
+последние три строчки данных. Анализ проводится на основе данных за 
+последние десять лет.
+</div>
+<div class="Indented">
+<table>
+<tbody><tr>
+<td align="center" valign="top">
+Date
+</td>
+<td align="center" valign="top">
+XLB
+</td>
+<td align="center" valign="top">
+XLE
+</td>
+<td align="center" valign="top">
+XLF
+</td>
+<td align="center" valign="top">
+XLK
+</td>
+<td align="center" valign="top">
+XLI
+</td>
+<td align="center" valign="top">
+XLP
+</td>
+<td align="center" valign="top">
+XLU
+</td>
+<td align="center" valign="top">
+XLV
+</td>
+<td align="center" valign="top">
+XLY
+</td>
+
+</tr>
+<tr>
+<td align="center" valign="top">
+2012-12-27
+</td>
+<td align="center" valign="top">
+-0.35
+</td>
+<td align="center" valign="top">
+-0.17
+</td>
+<td align="center" valign="top">
+-0.37
+</td>
+<td align="center" valign="top">
+-0.11
+</td>
+<td align="center" valign="top">
+-0.16
+</td>
+<td align="center" valign="top">
+0.17
+</td>
+<td align="center" valign="top">
+-0.18
+</td>
+<td align="center" valign="top">
+-0.15
+</td>
+<td align="center" valign="top">
+0.13
+</td>
+
+</tr>
+<tr>
+<td align="center" valign="top">
+2012-12-28
+</td>
+<td align="center" valign="top">
+-1.26
+</td>
+<td align="center" valign="top">
+-1.76
+</td>
+<td align="center" valign="top">
+-0.81
+</td>
+<td align="center" valign="top">
+-1.13
+</td>
+<td align="center" valign="top">
+-1.11
+</td>
+<td align="center" valign="top">
+-1.05
+</td>
+<td align="center" valign="top">
+-1
+</td>
+<td align="center" valign="top">
+-0.99
+</td>
+<td align="center" valign="top">
+-0.82
+</td>
+
+</tr>
+<tr>
+<td align="center" valign="top">
+2012-12-31
+</td>
+<td align="center" valign="top">
+1.93
+</td>
+<td align="center" valign="top">
+2.24
+</td>
+<td align="center" valign="top">
+1.3
+</td>
+<td align="center" valign="top">
+1.73
+</td>
+<td align="center" valign="top">
+1.8
+</td>
+<td align="center" valign="top">
+1.28
+</td>
+<td align="center" valign="top">
+1.35
+</td>
+<td align="center" valign="top">
+1.07
+</td>
+<td align="center" valign="top">
+1.99
+</td>
+
+</tr>
+
+</tbody></table>
+
+</div>
+<div class="Indented">
+<p><br>
+</p>
+
+</div>
+<div class="Indented">
+На начальном этапе посмотрим визуально на кумулятивные доходности отраслей.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/sectorReturnSP500.png" alt="рисунок sectorReturnSP500.png" style="width: 436px; max-width: 672px; height: 436px; max-height: 671px;">
+
+</div>
+<div class="Indented">
+Далее по данным о доходностях секторов посмотрим на структуру ковариации секторов в динамике.
+</div>
+<div class="Indented">
+Для данного примера воспользуемся методологией анализа главных 
+компонент. Результаты представлены графически в динамике по компонентам 
+ниже.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/sectorPCASP500.png" alt="рисунок sectorPCASP500.png" style="width: 369px; max-width: 672px; height: 369px; max-height: 671px;">
+
+</div>
+<div class="Indented">
+Из рисунка видно, что главная компонента(с номером 1) имеет огромное 
+влияние на доходность рынка(более 60 % практически за весь анализируемый
+ период). 
+</div>
+<div class="Indented">
+В то же самое время данная компонента является нестабильной, что 
+затрудняет ее практическое использование(ее изменение за сравнительно 
+короткое время превышает сумму компонент 4-5).
+</div>
+<div class="Indented">
+Вторым значимым наблюдением из разложения на компоненты является резкое 
+изменение главной компоненты, которое характеризуется повышением 
+коррелляции вариации движения отраслей и началось в 2007 году в 2012 
+году начало резко уменьшаться и вполне возможно, что этот режим развития
+ экономики закончился.
+</div>
+<div class="Indented">
+Следующим шагом определим динамику риска через вариацию весов портфеля составленного из секторов по теории Марковица.
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/sectorPCAweightsSP500.png" alt="рисунок sectorPCAweightsSP500.png" style="width: 369px; max-width: 672px; height: 369px; max-height: 671px;">
+
+</div>
+<div class="Indented">
+Вариация весов секторов в портфеле характеризует риск вложения в каждый 
+конкретный сектор экономики, а величина и тренд весов является признаком
+ притока или оттока денег из данного сектора.
+</div>
+<div class="Indented">
+Примечательно, что с момента начала кризиса(2008г.) в группу с 
+минимальным изменением весов попадают энергетика, продажи автомобилей и 
+запчастей к ним, а также финансовый сектор.
+</div>
+<h1 class="Chapter">
+<a class="toc" name="toc-Chapter-4">4</a> Риск ликвидности
+</h1>
+<div class="Unindented">
+<p><br>
+</p>
+
+</div>
+<div class="Indented">
+Данный тип риска явояется наиболее разработанной, но не самой простой 
+частью менеджмента риска. Многие части процесса управления риском 
+ликвидности описаны в деталях в инструкциях и положениях центробанков. 
+Например управление ГЭП-ом(разрывом). Из моей личной практики наиболее 
+сложной частью данного процесса является управление текущей или 
+мгновенной ликвидностью. В период моей деятельности, когда я отвечал за 
+этот участок, мне пришлось разработать собственную методологию и 
+управленческую отчетность на ежедневной основе для обеспечения 
+оптимальных показателей фондирования-вложения средств. К чему пришел 
+приведено на картинке ниже
+</div>
+<div class="Indented">
+<img class="embedded" src="SmikePortfolio2016_files/AL_Project1-.jpg" alt="рисунок A&amp;L_Project1-.jpg" style="width: 543px; max-width: 988px; height: 767px; max-height: 1396px;">
+
+</div>
+<div class="Indented">
+Данная модель позволяет контролировать маржу и видеть ежедневно 
+изменения по группам активов, пассивов капитала и мгновенный прогноз по 
+годовым показателям прибыли и убытка. Кроме этого модель позволяет 
+быстро провести грубое стресс тестирование изменения курса корзины 
+валют. 
+</div>
+
+</div>
+
+
+</body></html>
