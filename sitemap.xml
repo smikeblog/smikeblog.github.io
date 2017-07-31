@@ -5,8 +5,8 @@
     <description>Personal page</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jul 2017 17:02:19 +0100</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 17:02:19 +0100</lastBuildDate>
+    <pubDate>Mon, 31 Jul 2017 17:46:45 +0100</pubDate>
+    <lastBuildDate>Mon, 31 Jul 2017 17:46:45 +0100</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -38,11 +38,11 @@
 &lt;p&gt;Удачи всем !&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Jan 2015 17:45:00 +0000</pubDate>
-        <link>http://localhost:4000/%D0%BA%D1%80%D0%B8%D0%B7%D0%B8%D1%81/2015/01/27/Wpress-post-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%D0%BA%D1%80%D0%B8%D0%B7%D0%B8%D1%81/2015/01/27/Wpress-post-2.html</guid>
+        <link>http://localhost:4000/market/2015/01/27/Wpress-post-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/market/2015/01/27/Wpress-post-2.html</guid>
         
         
-        <category>Кризис</category>
+        <category>market</category>
         
       </item>
     
